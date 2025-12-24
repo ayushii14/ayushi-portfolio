@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ayushi Meena | Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header>
+        <nav>
+            <div class="logo">Ayushi <span>Meena</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero">
+        <div class="hero-left">
+            <img src="my img.png" alt="Ayushi Meena">
+        </div>
+
+        <div class="hero-right">
+            <h1>Hi, I'm <span class="highlight">Ayushi Meena</span></h1>
+            <h3>Aspiring Java Backend Developer</h3>
+            <span id="element"></span>
+
+            <div class="hero-buttons">
+    <a href="MyResume.pdf" class="btn" download>Download Resume</a>
+    <a href="https://github.com/ayushii14" class="btn outline" target="_blank">GitHub</a>
+    <a href="https://leetcode.com/u/ayushimeena33022/" class="btn outline" target="_blank">
+        LeetCode
+    </a>
+</div>
+
+        </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text">
+            I am a Computer Science undergraduate passionate about Java and backend development.
+            I enjoy building real-world applications, learning system design basics,
+            and strengthening my problem-solving skills through hands-on projects and internships.
+        </p>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+  <section id="skills" class="section dark">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">Java (Core, OOP, JDBC)</div>
+            <div class="skill-card">Data Structures & Algorithms</div>
+            <div class="skill-card">MySQL & DBMS</div>
+            <div class="skill-card">Java Swing (JFrame)</div>
+            <div class="skill-card">HTML & CSS</div>
+            <div class="skill-card">Git & GitHub</div>
+        </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section id="experience" class="section">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-card">
+                <h3>Java Developer Intern – Code Clause Pvt Ltd</h3>
+                <span>June 2024</span>
+                <p>
+                    Worked with Core Java, JFrame, and MySQL.
+                    Developed an Employee Management System implementing CRUD operations,
+                    database connectivity using JDBC, and basic application architecture.
+                </p>
+            </div>
+
+            <div class="timeline-card">
+                <h3>Java Developer Intern – AMS Tech</h3>
+                <span>Internship</span>
+                <p>
+                    Strengthened object-oriented programming concepts and Java fundamentals.
+                    Worked on application logic, debugging, and understanding real-world
+                    Java development workflows.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section dark">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+
+            <!-- Travel Project -->
+            <div class="project-card">
+                <h3>Travel & Tourist Management System</h3>
+
+                <p><strong>Tech Stack:</strong> Java, Java Swing (JFrame), MySQL, JDBC</p>
+
+                <p><strong>Features:</strong></p>
+                <ul>
+                    <li>User authentication (Login system)</li>
+                    <li>Tour package booking</li>
+                    <li>Hotel management module</li>
+                    <li>Database connectivity using JDBC</li>
+                </ul>
+            </div>
+
+            <!-- Employee Project -->
+            <div class="project-card">
+                <h3>Employee Management System</h3>
+
+                <p><strong>Tech Stack:</strong> Java, Java Swing (JFrame), MySQL, JDBC</p>
+
+                <p><strong>Features:</strong></p>
+                <ul>
+                    <li>Secure login system</li>
+                    <li>Add new employee records</li>
+                    <li>Update and delete employee details</li>
+                    <li>View employee information from database</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-box">
+            <p><strong>📞 Phone:</strong> +91 9893733022</p>
+            <p><strong>📧 Email:</strong> ayushimeena33022@gmail.com</p>
+            <p><strong>📍 Location:</strong> Indore, India</p>
+            <p>
+                <strong>🔗 LinkedIn:</strong>
+                <a href="https://www.linkedin.com/in/ayushi-meena-273a53249/" target="_blank">
+                    Ayushi Meena
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <p>© 2025 Ayushi Meena | Built with ❤️ & Java Dreams</p>
+    </footer>
+
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        new Typed('#element', {
+            strings: ['Java Developer', 'Backend Enthusiast', 'CS Undergraduate'],
+            typeSpeed: 60,
+            backSpeed: 35,
+            loop: true
+        });
+    </script>
+
+</body>
+</html>
